@@ -14,5 +14,8 @@ export default defineConfig({
     port: 5173,
     open: true,
   },
+  // IMPORTANTE: Cambia '/reviso-frontend/' por el nombre real de tu repositorio en GitHub
+  // Si tu repo se llama 'revISO', entonces usa base: '/revISO/'
+  base: '/reviso-frontend/',
 });
 
